@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>M.J.B. / folio</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/mysite.css" rel="stylesheet">
+
+    <!-- Bootstrap Core JavaScript >
+    <script src="js/bootstrap.min.js"></script-->
+    
+    <!--Custom JavaScript-->
+    <script src="js/mysite.js"></script>
+    <!--JQuery-->
+    <script src="js/jquery.min.js"></script>
+    <!--<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>-->
+    
+    <!--<script type="text/javascript" src="js/jkit/jquery-1.9.1.min.js"></script>-->
+	<script type="text/javascript" src="js/jkit/jquery.jkit.1.2.16.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('body').jKit();
+		});
+	</script>
+		
+
+	
+    <!---->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<link href="https://fonts.googleapis.com/css?family=Poiret+One|Inknut+Antiqua" rel="stylesheet">
+<link rel="icon" href="images/mtab.png">
+
+</head>
+<body onload="javascript:loadi()">
+
+<img class="cloader" src="images/mload.gif" style="z-index: 1000; position: fixed;">
+
+<div id="backloader" style="height: 100%; width: 100%; background-color: #FFFFFF; z-index: 999; position: fixed;">
+</div>
+
+<section id="myDiv" class="cover-thing first" style="overflow: hidden;">
+    <div class="fullscreen-bg">
+    	<video loop muted autoplay poster="weback.png" class="fullscreen-bg__video" style="position: fixed;">
+        	<source src="background.mp4" type="video/mp4"></source>
+   		</video>
+	</div>
+	
+<div class="fullscreen-bg" style="z-index: 100; position: absolute; padding: 0px; justify-content:center;">
+	<img src="images/MJBLogo3.png" class="myelement"></img>
+</div>
+
+<div class="fullscreen-bg" style="position: absolute; padding: 0px; justify-content:center;">
+<div class="pulsatecontainer"><div class="pulsate" style="font-size: 275%; top: 50%; transform: translateY(-50%); z-index: 100; position: relative; opacity: .65; display: block;"> please scroll down </div></div>
+</div>
+</section>
+
+<section class="cover-thing second" style="vertical-align: middle; height: auto; padding: 0px; display: inline; font-size: 20px;">   
+    <p style="padding: 50px; width: 50%; text-align: center; display: table-cell; font-size: 1em; position: relative; top: 150%; transform: translateX(0%); background-color: rgba(221,221,221,1.00);">I am M.J.B. and this is my website. Here you can find some of my work in relation to programming & web design. You can contact me at:<br>
+    <span style="background-color: rgba(14,185,220,0.75); border-radius: 10px; padding: 2px;">coming@soon.com</span></p>
+    
+</section>
+
+<section class="cover-thing third" style="height: auto;">
+<div class="container" style="margin: 0px; padding: 0px; overflow: hidden; width: 100%;"> 
+            <div id="workrow" class="row" style="margin: 0px;">
+                <div class="col-sm-4 col-md-4 col-lg-4" style="background-color: #dab901">
+					<img class="grow" id="vecvec" onClick="vecpop()" src="svg/Artboard 1.svg" style="object-fit: fill"></img>
+               		<div class="fullscreen-bg" id="vecd" style="z-index: 10;">
+						<div class="worksqssm" style="color: #333333;);">projectVector, an enviormental storytelling game.</div>
+					</div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4" style="background-color: #0FA900;">
+                    <img class="grow" id="brushvec" onClick="brushpop()" src="svg/brush.svg" style="object-fit: fill"></img>
+                    <div class="fullscreen-bg" id="brushd" style="z-index: 10;">
+						<div class="worksqs" style="color: #6E3400;">A simple applescript program that when called through a C++ program, will clear the console output. Users can now effectively use the Xcode output window with their command line applications.<br><a href="downloads/clsHero.zip" download="">
+							<button style="border-radius: 100px; border-style: none; background-color: #6E3400; color: #0FA900;" type="submit">Download</button>
+						</a></div>
+					</div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4" style="background-color: #0d5fa8;">
+                    <img class="grow" id="tsavec" onClick="tsapop()" src="svg/tsa.svg" style=" object-fit: fill;" ></img>
+                    <div class="fullscreen-bg" id="tsad" style="z-index: 10;">
+						<div class="worksqs" style="color: white;">Member of the Technology Student Association since 2013. Vice-President 2014 though 2016 and President 2016 though 2017 in respective schools. State finalist in the Video Game Design competition for years 2014 & 2015.</div>
+					</div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<section class="cover-thing fourth" style="height: auto; padding: 5pt;">
+	<div class="footinfo" id="eff" style="margin-left: 10px; padding-left: 12px;">Website designed by M.J.B.</div>
+	<div class="footinfo">Hosted with GitHub Pages</div>
+	<div class="footinfo" style="border: none;">null</div>
+</section>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

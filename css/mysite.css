@@ -1,0 +1,267 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+body {
+	font-family: "Poiret One"
+}
+
+#myDiv {
+	
+}
+
+#vecd {
+	display: none;
+}
+#brushd {
+	display: none;
+}
+#tsad {
+	display: none;
+}
+
+
+.myelement {
+	top: 50%;
+	left: 50%;
+	-ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+  	transform: translate(-50%, -50%);
+	opacity: .80;
+	width: 30%;
+	height: auto;
+	z-index: 100;
+	position: absolute;
+}
+
+.footinfo {
+	border-right: 1px solid #d6d6d6;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(214, 214, 214);
+	margin-right: 10px;
+    padding-right: 12px;
+    display: inline-block;
+    margin-top: 3px;
+	
+	text-align: center; 
+	font-size: 0.8em; 
+	white-space: nowrap;
+}
+
+.popup{
+	display: none;
+  position: fixed;
+  top: 7%;
+  left: 7%;
+  width: 85%;
+  height: 85%;
+  padding: 16px;
+  background-color: white;
+  z-index: 1002;
+  overflow: auto;
+}
+
+.center{
+  	top: 25%;
+  	left: 25%;
+  	width: 50%;
+  	height: 50%;
+  	padding: 16px;
+  	overflow: auto;
+}
+
+.worksqs {
+	padding-right: 15px;
+	padding-left: 15px;
+	top: 50%;
+	left: 25%;
+	transform: translate(-15%, -50%);
+	position: absolute;
+}
+.worksqssm {
+	padding-right: 15px;
+	padding-left: 15px;
+	top: 50%;
+	left: 25%;
+	transform: translate(-15%, -50%);
+	position: absolute;
+}
+
+@media (max-width: 768px) {
+	.worksqssm {
+		left: 35%;
+		transform: translate(-15%, -50%);
+	}
+}
+
+@media (max-width: 768px) {
+	.worksqs {
+		left: 10%;
+		transform: translate(-5%, -50%);
+	}
+}
+
+.cloader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+}
+
+.browse .textContainer { 
+    height: 430px; 
+    line-height: 400px;
+}
+
+.textContainer h2 {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#pic {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.fullscreen-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+	z-index: -100;
+}
+
+.pulsate {
+    -webkit-animation: pulsate 2.5s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.5;
+	/*-ms-transform: translate(0px, 50px);
+    -webkit-transform: translate(0px, 50px); 
+    transform: translate(0px, 50px);*/
+}
+.pulsatecontainer {
+	position: absolute;
+    height: 80px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    z-index: 100;
+}
+@-webkit-keyframes pulsate {
+	from {opacity: 0.6; top: 40%;}
+    to {opacity: 0.0; top: 60%}
+}
+
+.grow { transition: all .2s ease-in-out; }
+
+.grow:hover {
+	-webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+	transform: scale(1.1);
+	transition: all 0.4s ease;
+}
+
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	z-index: 100;
+	overflow: auto;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 110%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: auto;
+    height: 100%;
+  }
+}
+
+/*@media (max-width: 977px) {
+  #profile{
+	  display: block;
+  }
+}*/
+@media (max-width: 970px) {
+  #norm {
+	  width: 100%;
+  }
+}
+@media (min-width: 970px) {
+  #norm {
+	  width: 50%;
+  }
+}
+
+*, *:before, *:after {
+-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.cover-thing {
+    width: 100%;
+    height: 100%;
+	text-align: center;
+	top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+.first {
+}
+
+.second {
+	background-color: rgba(221,221,221,1.00);
+}
+
+.third {
+	background-color: rgba(245,245,245,1.00);
+}
+
+.fourth {
+	background-color:rgba(251,251,251,1.00);
+}
+.fifth {
+	background-color:rgba(230,225,225,1.00)
+}
