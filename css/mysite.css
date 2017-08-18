@@ -99,7 +99,7 @@ body {
 	position: absolute;
 }
 
-@media (max-width: 1080px) and (min-width: 768) {
+@media (min-width: 768) {
 	.worksqs {
 		padding-left: 0px;
 		padding-right: 0px;
