@@ -122,9 +122,14 @@ body {
 		font-size: 250%;
 	}
 }
-@media (max-width: 740px) and (min-width: 320) {
+@media (max-width: 740px) and (min-width: 570) {
 	.pulsate {
 		font-size: 225%;
+	}
+}
+@media (max-width: 570px) and (min-width: 320) {
+	.pulsate {
+		font-size: 205%;
 	}
 }
 
