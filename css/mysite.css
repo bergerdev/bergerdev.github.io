@@ -113,6 +113,9 @@ body {
 		left: 10%;
 		transform: translate(-5%, -50%);
 	}
+	.pulsate {
+		font-size: 200%;
+	}
 }
 
 .cloader {
