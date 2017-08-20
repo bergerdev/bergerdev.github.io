@@ -38,7 +38,7 @@ body {
     	-moz-transform: translateY(-50%, -50%);
     	-o-transform: translateY(-50%, -50%);
   	transform: translate(-50%, -50%);
-	opacity: .65;
+	opacity: .55;
 	width: 30%;
 	height: auto;
 	z-index: 100;
