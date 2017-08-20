@@ -117,6 +117,11 @@ body {
 		font-size: 200%;
 	}
 }
+@media (min-width: 980px) {
+	.pulsate {
+		font-size: 275%;
+	}
+}
 @media (max-width: 980px) and (min-width: 740) {
 	.pulsate {
 		font-size: 250%;
@@ -174,7 +179,6 @@ body {
     	-webkit-animation: pulsate 2.5s ease-out;
     	-webkit-animation-iteration-count: infinite; 
     	opacity: 0.5;
-	font-size: 275%;
 	/*-ms-transform: translate(0px, 50px);
     	-webkit-transform: translate(0px, 50px); 
     	transform: translate(0px, 50px);*/
@@ -228,22 +232,6 @@ body {
     		width: auto;
     		height: auto;
  	 }
-}
-
-/*@media (max-width: 977px) {
-  #profile{
-	  display: block;
-  }
-}*/
-@media (max-width: 970px) {
-  	#norm {
-	  width: 100%;
-  }
-}
-@media (min-width: 970px) {
-  #norm {
-	  width: 50%;
-  }
 }
 
 *, *:before, *:after {
