@@ -2,17 +2,17 @@
 /* CSS Document */
 
 @keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
+  	0% {
+    		opacity: 0;
+  	}
 
-  100% {
-    opacity: 1;
-  }
+  	100% {
+    		opacity: 1;
+  	}
 }
 
 body {
-	font-family: "Ubuntu+Mono"
+	font-family: 'Ubuntu Mono', monospace;
 }
 
 #myDiv {
@@ -108,71 +108,71 @@ body {
 }
 
 .cloader {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  z-index: 1;
-  width: 150px;
-  height: 150px;
-  margin: -75px 0 0 -75px;
+  	position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	z-index: 1;
+  	width: 150px;
+  	height: 150px;
+  	margin: -75px 0 0 -75px;
 }
 
 .browse .textContainer { 
-    height: 430px; 
-    line-height: 400px;
+    	height: 430px; 
+    	line-height: 400px;
 }
 
 .textContainer h2 {
-    vertical-align: middle;
-    display: inline-block;
+	vertical-align: middle;
+    	display: inline-block;
 }
 
 #pic {
-    position: relative;
-    padding: 0;
-    margin: 0;
-    float: left;
+    	position: relative;
+    	padding: 0;
+    	margin: 0;
+    	float: left;
 }
 
 .fullscreen-bg {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
+    	position: absolute;
+    	top: 0;
+    	right: 0;
+    	bottom: 0;
+    	left: 0;
+    	overflow: hidden;
 	z-index: -100;
 }
 
 .pulsate {
-    -webkit-animation: pulsate 2.5s ease-out;
-    -webkit-animation-iteration-count: infinite; 
-    opacity: 0.5;
+    	-webkit-animation: pulsate 2.5s ease-out;
+    	-webkit-animation-iteration-count: infinite; 
+    	opacity: 0.5;
 	/*-ms-transform: translate(0px, 50px);
-    -webkit-transform: translate(0px, 50px); 
-    transform: translate(0px, 50px);*/
+    	-webkit-transform: translate(0px, 50px); 
+    	transform: translate(0px, 50px);*/
 }
 .pulsatecontainer {
 	position: absolute;
-    height: 80px;
-    width: auto;
-    margin: 0 auto;
-    display: block;
-    left: 0;
-    right: 0;
-    bottom: 20px;
-    z-index: 100;
+    	height: 80px;
+    	width: auto;
+    	margin: 0 auto;
+    	display: block;
+    	left: 0;
+    	right: 0;
+    	bottom: 20px;
+    	z-index: 100;
 }
 @-webkit-keyframes pulsate {
 	from {opacity: 0.6; top: 40%;}
-    to {opacity: 0.0; top: 60%}
+    	to {opacity: 0.0; top: 60%}
 }
 
 .grow { transition: all .2s ease-in-out; }
 
 .grow:hover {
 	-webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
+    	-ms-transform: scale(1.1);
 	transform: scale(1.1);
 	transition: all 0.4s ease;
 }
@@ -190,17 +190,17 @@ body {
 }
 
 @media (min-aspect-ratio: 16/9) {
-  .fullscreen-bg__video {
-    width: 110%;
-    height: auto;
-  }
+  	.fullscreen-bg__video {
+    		width: 110%;
+    		height: auto;
+  	}
 }
 
 @media (max-aspect-ratio: 16/9) {
-  .fullscreen-bg__video {
-    width: auto;
-    height: auto;
-  }
+	.fullscreen-bg__video {
+    		width: auto;
+    		height: auto;
+ 	 }
 }
 
 /*@media (max-width: 977px) {
@@ -209,7 +209,7 @@ body {
   }
 }*/
 @media (max-width: 970px) {
-  #norm {
+  	#norm {
 	  width: 100%;
   }
 }
