@@ -1,2 +1,8 @@
 User-agent: *
 Disallow: /flowchart/
+Disallow: /css/
+Disallow: /downloads/
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /js/
+Disallow: /svg/
